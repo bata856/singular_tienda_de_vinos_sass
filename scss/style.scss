@@ -3,6 +3,7 @@ $color_fondo_header: linear-gradient(rgba(71, 2, 2, 0.918) , rgb(31, 1, 21));
 $color_fondo_footer: rgb(15, 2, 2); 
 
 @import "./base/reset";
+@import "./utilities/mixins";
 @import "./layout/main_fondo";
 @import "./layout/header";
 @import "./layout/_main_index";

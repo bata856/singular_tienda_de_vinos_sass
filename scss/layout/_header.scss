@@ -73,13 +73,11 @@ h1
 
 .contenedor
     {
-        display: flex;
+        display: flex;      
         height: 40px;
         width: 100%;
         gap: 5px;
-        justify-content: center;
-        align-items:center;
-        flex-direction: row;
+        @include centrar(center,center,row);
         flex-wrap:wrap;
        
     }
@@ -90,9 +88,7 @@ h1
         height: 60px;
         width: 100%;
         gap: 5px;
-        justify-content: center;
-        align-items:center;
-        flex-direction: row;
+        @include centrar(center,center,row);       
         flex-wrap:wrap;
         margin-top: 5px;
     }

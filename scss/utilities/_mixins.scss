@@ -1,0 +1,6 @@
+@mixin centrar($justify,$align,$flexdirection) 
+{
+        justify-content: $justify;
+        align-items: $align;
+        flex-direction: $flexdirection;  
+}

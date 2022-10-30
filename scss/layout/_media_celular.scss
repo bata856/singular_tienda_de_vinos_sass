@@ -140,9 +140,7 @@
         height: 70px;
         width: 100%;
         gap: 15px;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
+        @include centrar(center,center,row);
         flex-wrap: wrap;
         margin-top: 5px;
         
