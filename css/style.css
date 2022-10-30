@@ -116,8 +116,7 @@ h2 {
   justify-items: center;
   margin-top: 5px;
   padding-top: 20px;
-  grid-template-areas: "grid-1 grid-2 grid-3"
- "grid-4 grid-5 grid-6"; }
+  grid-template-areas: "grid-1 grid-2 grid-3" "grid-4 grid-5 grid-6"; }
 
 .grid-1 {
   grid-area: grid-1; }
@@ -210,9 +209,7 @@ footer {
   gap: 10px;
   justify-items: center;
   margin-top: 5px;
-  grid-template-areas: "grid-1-catalogo grid-2-catalogo grid-3-catalogo"
- "grid-4-catalogo grid-5-catalogo grid-6-catalogo"
- "grid-7-catalogo grid-8-catalogo grid-9-catalogo"; }
+  grid-template-areas: "grid-1-catalogo grid-2-catalogo grid-3-catalogo" "grid-4-catalogo grid-5-catalogo grid-6-catalogo" "grid-7-catalogo grid-8-catalogo grid-9-catalogo"; }
 
 .grid-1-catalogo {
   grid-area: grid-1-catalogo; }
@@ -313,8 +310,7 @@ footer {
     justify-items: center;
     margin-top: 5px;
     padding-top: 20px;
-    grid-template-areas: "grid-1 grid-2 grid-3"
- "grid-4 grid-5 grid-6"; }
+    grid-template-areas: "grid-1 grid-2 grid-3" "grid-4 grid-5 grid-6"; }
   .grid-1 {
     grid-area: grid-1; }
     .grid-1 img {
@@ -382,9 +378,7 @@ footer {
     justify-items: center;
     align-items: center;
     margin-top: 5px;
-    grid-template-areas: "grid-1 grid-4"
- "grid-2 grid-5"
- "grid-3 grid-6"; }
+    grid-template-areas: "grid-1 grid-4" "grid-2 grid-5" "grid-3 grid-6"; }
   .grid-1 img {
     width: 150px; }
   .grid-2 img img {
@@ -398,11 +392,7 @@ footer {
     gap: 10px;
     justify-items: auto;
     margin-top: 5px;
-    grid-template-areas: "grid-1-catalogo grid-2-catalogo" 
- "grid-3-catalogo grid-4-catalogo" 
- "grid-5-catalogo grid-6-catalogo"
- "grid-7-catalogo grid-8-catalogo"
- "grid-9-catalogo ."; } }
+    grid-template-areas: "grid-1-catalogo grid-2-catalogo"  "grid-3-catalogo grid-4-catalogo"  "grid-5-catalogo grid-6-catalogo" "grid-7-catalogo grid-8-catalogo" "grid-9-catalogo ."; } }
 
 @media (max-width: 576px) {
   header {
@@ -434,12 +424,7 @@ footer {
     justify-items: center;
     align-items: center;
     margin-top: 5px;
-    grid-template-areas: "grid-1" 
- "grid-4"
- "grid-2"
- "grid-5"
- "grid-3" 
- "grid-6"; }
+    grid-template-areas: "grid-1"  "grid-4" "grid-2" "grid-5" "grid-3"  "grid-6"; }
   .grid-1 img {
     width: 200px; }
   .grid-2 img {
@@ -453,15 +438,7 @@ footer {
     gap: 10px;
     justify-items: auto;
     margin-top: 5px;
-    grid-template-areas: "grid-1-catalogo" 
- "grid-2-catalogo" 
- "grid-3-catalogo" 
- "grid-4-catalogo" 
- "grid-5-catalogo"
- "grid-6-catalogo"
- "grid-7-catalogo"
- "grid-8-catalogo"
- "grid-9-catalogo "; }
+    grid-template-areas: "grid-1-catalogo"  "grid-2-catalogo"  "grid-3-catalogo"  "grid-4-catalogo"  "grid-5-catalogo" "grid-6-catalogo" "grid-7-catalogo" "grid-8-catalogo" "grid-9-catalogo "; }
   .caja a {
     text-decoration: none;
     font-size: 15px;
