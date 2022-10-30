@@ -1,0 +1,106 @@
+
+@media (max-width: 1024px)
+   
+
+{
+       
+    .contenedor-grid
+   
+    {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 1fr 1fr;
+            gap: 10px;
+            justify-items: center;
+            margin-top: 5px;
+            padding-top: 20px;
+            grid-template-areas: 
+            "grid-1 grid-2 grid-3"
+            "grid-4 grid-5 grid-6";
+    
+    
+    }
+    
+    .grid-1
+    {
+        grid-area: grid-1;
+    
+        img
+    
+        {
+            width: 200px;
+        
+        } 
+    }
+    
+    
+    
+    .grid-2
+    {
+        grid-area: grid-2;
+
+        img
+    
+        {
+        width: 200px;
+    
+        }
+    }
+
+    
+    .grid-3
+    
+    {
+        grid-area: grid-3;
+
+    img
+    
+    {
+        width: 200px;
+    
+    }
+    }
+    
+        
+    .grid-4
+  
+    {
+        grid-area: grid-4;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 16px;
+        text-decoration: solid;
+        color: aliceblue;
+        text-align: justify;
+    
+    }
+    
+    .grid-5
+
+    {
+        grid-area: grid-5;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 16px;
+        text-decoration: solid;
+        color: aliceblue;
+        text-align: justify;
+    
+    }
+    
+    .grid-6
+    
+    {
+        grid-area: grid-6;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 16px;
+        text-decoration: solid;
+        color: aliceblue;
+        text-align: justify;
+    
+    }
+    
+    
+    
+}

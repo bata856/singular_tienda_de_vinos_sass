@@ -1,0 +1,166 @@
+header 
+
+    { 
+ 
+     
+     background: $color_fondo_header; 
+     height: 260px;
+    
+    }
+
+
+h1 
+    { 
+    
+        font-size: 45px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        text-align: center;
+        padding: 5px;
+        color: bisque;
+        -webkit-animation: scale-up-hor-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+        animation: scale-up-hor-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;      
+    
+        @-webkit-keyframes scale-up-hor-center {
+            0% {
+              -webkit-transform: scaleX(0.4);
+                      transform: scaleX(0.4);
+            }
+            100% {
+              -webkit-transform: scaleX(1);
+                      transform: scaleX(1);
+            }
+          }
+          @keyframes scale-up-hor-center {
+            0% {
+              -webkit-transform: scaleX(0.4);
+                      transform: scaleX(0.4);
+            }
+            100% {
+              -webkit-transform: scaleX(1);
+                      transform: scaleX(1);
+            }
+          }
+    
+       &::first-letter
+       { 
+       font-size: 60px;
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       font-weight: 500;
+       }  
+    }
+
+      
+
+    h2 
+    { 
+    
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        text-align: center;
+        /**padding: 5px;**/
+        color: bisque;
+    }
+
+    
+
+
+
+
+
+.contenedor
+    {
+        display: flex;
+        height: 40px;
+        width: 100%;
+        gap: 5px;
+        justify-content: center;
+        align-items:center;
+        flex-direction: row;
+        flex-wrap:wrap;
+       
+    }
+ 
+.contenedor-inferior
+    {
+        display: flex;
+        height: 60px;
+        width: 100%;
+        gap: 5px;
+        justify-content: center;
+        align-items:center;
+        flex-direction: row;
+        flex-wrap:wrap;
+        margin-top: 5px;
+    }
+
+
+.box
+    {
+        width: 15%;
+        height: 40px;
+        text-align: center;
+        a
+    {
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bolder;
+        color: blanchedalmond;
+    }
+    
+    }
+
+.box-1
+    {
+        padding: 5px;
+    
+    }
+
+.box-2
+    {
+
+        padding: 5px;
+    }
+
+.box-3
+    {
+    
+        padding: 5px;
+    }
+
+.box-4
+    {
+    
+        padding: 5px;
+    }
+
+.box-5
+    {
+        padding: 5px;
+        
+    }
+
+.box-6
+    {
+    
+        padding: 5px;
+        
+    }
+
+.box-7
+    {
+    
+        padding: 5px;
+        
+    }
+.box-8
+    {
+        padding: 5px;
+        
+    }
+
+.logos
+    {
+        height: 24px;
+    }

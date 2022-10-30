@@ -1,0 +1,43 @@
+   
+ .contenedor-flex
+ {
+     display: flex;
+     height: 50px;
+     width: 100%;
+     gap: 5px;
+     justify-content: center;
+     align-items: center;
+     flex-direction: row;
+     flex-wrap: wrap;
+     margin-top: 5px;
+     
+ }
+
+ footer 
+
+ { 
+
+     background-color: $color_fondo_footer; 
+     height: 150px;
+ }
+
+
+ .caja
+ {
+     width: 20%;
+     height: 50px;
+     text-align: center;
+     padding-top: 15px;
+     
+
+
+     a
+ {
+     text-decoration: none;
+     font-size: 18px;
+     font-weight: bolder;
+     color: bisque;
+        
+     
+ }
+ }

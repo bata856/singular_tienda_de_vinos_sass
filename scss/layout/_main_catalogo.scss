@@ -1,0 +1,218 @@
+.contenedor-grid-catalogo
+    {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);  
+        gap: 10px;
+        justify-items: center;
+        margin-top: 5px;
+        grid-template-areas: 
+        "grid-1-catalogo grid-2-catalogo grid-3-catalogo"
+        "grid-4-catalogo grid-5-catalogo grid-6-catalogo"
+        "grid-7-catalogo grid-8-catalogo grid-9-catalogo"
+        
+        ;
+
+    }
+
+
+
+    .grid-1-catalogo
+    {
+        
+        grid-area: grid-1-catalogo;
+
+    
+    img
+    {
+        
+        width: 180px;
+        justify-content: center;
+        align-items: center;
+    }
+    &:hover
+    {
+        transform: scale(1.2);
+        transition: transform 500ms;
+    }
+
+
+    }
+
+
+    .grid-2-catalogo
+    {
+        
+        grid-area: grid-2-catalogo;
+
+    
+    img
+    {
+        
+        width: 180px;
+        justify-content: center;
+        align-items: center;
+    }
+    &:hover
+    {
+        transform: scale(1.2);
+        transition: transform 500ms;
+    }
+
+
+    }
+
+
+    .grid-3-catalogo
+    {
+        
+        grid-area: grid-3-catalogo;
+
+    
+        img
+        {
+        
+        width: 180px;
+        justify-content: center;
+        align-items: center;
+        }
+        &:hover
+        {
+        transform: scale(1.2);
+        transition: transform 500ms;
+        }
+
+
+    }
+
+.grid-4-catalogo
+    {
+        
+        grid-area: grid-4-catalogo;
+
+    
+        img
+        {
+        
+        width: 180px;
+        justify-content: center;
+        align-items: center;
+        }
+        &:hover
+        {
+        transform: scale(1.2);
+        transition: transform 500ms;
+        }
+
+
+    }
+    .grid-5-catalogo
+    {
+        
+        grid-area: grid-5-catalogo;
+
+    
+    img
+    {
+        
+        width: 180px;
+        justify-content: center;
+        align-items: center;
+    }
+    &:hover
+    {
+        transform: scale(1.2);
+        transition: transform 500ms;
+    }
+
+
+    }
+
+    .grid-6-catalogo
+    {
+        
+        grid-area: grid-6-catalogo;
+
+    
+    img
+    {
+        
+        width: 180px;
+        justify-content: center;
+        align-items: center;
+    }
+    &:hover
+    {
+        transform: scale(1.2);
+        transition: transform 500ms;
+    }
+
+
+    }
+
+
+    .grid-7-catalogo
+    {
+        
+        grid-area: grid-7-catalogo;
+
+    
+    img
+    {
+        
+        width: 180px;
+        justify-content: center;
+        align-items: center;
+    }
+    &:hover
+    {
+        transform: scale(1.2);
+        transition: transform 500ms;
+    }
+
+
+    }
+
+    .grid-8-catalogo
+    {
+        
+        grid-area: grid-8-catalogo;
+
+    
+    img
+    {
+        
+        width: 180px;
+        justify-content: center;
+        align-items: center;
+    }
+    &:hover
+    {
+        transform: scale(1.2);
+        transition: transform 500ms;
+    }
+
+
+    }
+
+    .grid-9-catalogo
+    {
+        
+        grid-area: grid-9-catalogo;
+
+    
+    img
+    {
+        
+        width: 180px;
+        justify-content: center;
+        align-items: center;
+    }
+    &:hover
+    {
+        transform: scale(1.2);
+        transition: transform 500ms;
+    }
+
+
+    }

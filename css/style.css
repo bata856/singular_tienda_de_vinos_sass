@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
 main {
   background-image: url("../img/Fondo.png");
   width: 100%;
@@ -44,13 +49,6 @@ h2 {
   text-align: center;
   /**padding: 5px;**/
   color: bisque; }
-
-.legales p {
-  color: white;
-  font-size: 18px;
-  padding: 40px;
-  text-align: justify;
-  font-weight: bold; }
 
 .contenedor {
   display: flex;
@@ -184,8 +182,8 @@ h2 {
   margin-top: 5px; }
 
 footer {
-  background-color: rgba(71, 2, 2, 0.918);
-  height: 100px; }
+  background-color: #0f0202;
+  height: 150px; }
 
 .caja {
   width: 20%;
@@ -196,7 +194,14 @@ footer {
     text-decoration: none;
     font-size: 18px;
     font-weight: bolder;
-    color: blanchedalmond; }
+    color: bisque; }
+
+.legales p {
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  text-align: justify;
+  font-weight: bold; }
 
 .contenedor-grid-catalogo {
   display: grid;
@@ -349,7 +354,7 @@ footer {
 
 @media (max-width: 768px) {
   header {
-    background-color: rgba(71, 2, 2, 0.918);
+    background-color: linear-gradient(rgba(71, 2, 2, 0.918), #1f0115);
     height: 260px; }
   h1 {
     font-size: 30px;
@@ -401,7 +406,7 @@ footer {
 
 @media (max-width: 576px) {
   header {
-    background-color: rgba(71, 2, 2, 0.918);
+    background-color: linear-gradient(rgba(71, 2, 2, 0.918), #1f0115);
     height: 260px; }
   h1 {
     font-size: 30px;
@@ -435,11 +440,11 @@ footer {
  "grid-5"
  "grid-3" 
  "grid-6"; }
-  .grid-1 img img {
+  .grid-1 img {
     width: 200px; }
-  .grid-2 img img {
+  .grid-2 img {
     width: 200px; }
-  .grid-3 img img {
+  .grid-3 img {
     width: 200px; }
   .contenedor-grid-catalogo {
     display: grid;

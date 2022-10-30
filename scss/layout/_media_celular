@@ -1,0 +1,154 @@
+
+@media (max-width: 576px)
+    
+{
+    
+    
+    header 
+
+    { 
+ 
+     background-color: $color_fondo_header;
+     height: 260px;
+    
+    }
+    
+    h1 
+    { 
+    
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        text-align: center;
+        padding: 5px;
+        color: bisque;
+        
+    }
+
+    h2 
+    { 
+    
+        font-size: 24px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        text-align: center;
+        padding: 5px;
+        color: bisque;
+    }
+
+    .box
+    {
+        width: 20%;
+        height: 20px;
+        text-align: center;
+        
+    
+    }
+
+
+
+    .contenedor-grid
+    {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        gap: 10px;
+        justify-items: center;
+        align-items: center;
+        margin-top: 5px;
+        grid-template-areas: 
+        "grid-1" 
+        "grid-4"
+        "grid-2"
+         "grid-5"
+        "grid-3" 
+        "grid-6"
+        ;
+    }
+
+.grid-1 
+    {
+        
+        img
+        {
+        width: 200px;
+        }
+    
+    }
+
+.grid-2
+    {
+        img
+        {
+        width: 200px;
+        }
+    
+    
+    }
+
+.grid-3 
+    {
+        img
+        {
+        width: 200px;
+        }
+    
+    
+    }
+
+
+    .contenedor-grid-catalogo
+    {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(9, 1fr);
+        gap: 10px;
+        justify-items:auto;
+        margin-top: 5px;
+        grid-template-areas: 
+        "grid-1-catalogo" 
+        "grid-2-catalogo" 
+        "grid-3-catalogo" 
+        "grid-4-catalogo" 
+        "grid-5-catalogo"
+        "grid-6-catalogo"
+        "grid-7-catalogo"
+        "grid-8-catalogo"
+        "grid-9-catalogo " 
+        
+        ;
+    }
+ 
+    .caja 
+    {
+    a
+        {
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: bolder;
+        color: blanchedalmond;
+        }
+        
+        
+        
+    }
+
+
+    .contenedor-flex
+    {
+        display: flex;
+        height: 70px;
+        width: 100%;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 5px;
+        
+    }
+
+
+    
+    
+}
