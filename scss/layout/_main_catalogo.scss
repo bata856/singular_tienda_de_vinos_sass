@@ -44,44 +44,20 @@
     {
         
         grid-area: grid-2-catalogo;
-
-    
-    img
-    {
-        
-        width: 180px;
-        justify-content: center;
-        align-items: center;
-    }
-    &:hover
-    {
-        transform: scale(1.2);
-        transition: transform 500ms;
-    }
+        @extend .grid-1-catalogo;
 
 
-    }
+    } 
 
 
     .grid-3-catalogo
     {
         
         grid-area: grid-3-catalogo;
+        @extend .grid-1-catalogo;
 
     
-        img
-        {
-        
-        width: 180px;
-        justify-content: center;
-        align-items: center;
-        }
-        &:hover
-        {
-        transform: scale(1.2);
-        transition: transform 500ms;
-        }
-
+ 
 
     }
 
@@ -89,42 +65,18 @@
     {
         
         grid-area: grid-4-catalogo;
+        @extend .grid-1-catalogo;
 
-    
-        img
-        {
-        
-        width: 180px;
-        justify-content: center;
-        align-items: center;
-        }
-        &:hover
-        {
-        transform: scale(1.2);
-        transition: transform 500ms;
-        }
-
-
+            
     }
+    
     .grid-5-catalogo
     {
         
         grid-area: grid-5-catalogo;
+        @extend .grid-1-catalogo;
 
     
-    img
-    {
-        
-        width: 180px;
-        justify-content: center;
-        align-items: center;
-    }
-    &:hover
-    {
-        transform: scale(1.2);
-        transition: transform 500ms;
-    }
-
 
     }
 
@@ -132,21 +84,8 @@
     {
         
         grid-area: grid-6-catalogo;
-
+        @extend .grid-1-catalogo;
     
-    img
-    {
-        
-        width: 180px;
-        justify-content: center;
-        align-items: center;
-    }
-    &:hover
-    {
-        transform: scale(1.2);
-        transition: transform 500ms;
-    }
-
 
     }
 
@@ -155,21 +94,9 @@
     {
         
         grid-area: grid-7-catalogo;
+        @extend .grid-1-catalogo;
 
     
-    img
-    {
-        
-        width: 180px;
-        justify-content: center;
-        align-items: center;
-    }
-    &:hover
-    {
-        transform: scale(1.2);
-        transition: transform 500ms;
-    }
-
 
     }
 
@@ -177,21 +104,8 @@
     {
         
         grid-area: grid-8-catalogo;
-
+        @extend .grid-1-catalogo;
     
-    img
-    {
-        
-        width: 180px;
-        justify-content: center;
-        align-items: center;
-    }
-    &:hover
-    {
-        transform: scale(1.2);
-        transition: transform 500ms;
-    }
-
 
     }
 
@@ -199,20 +113,8 @@
     {
         
         grid-area: grid-9-catalogo;
-
+        @extend .grid-1-catalogo;
     
-    img
-    {
-        
-        width: 180px;
-        justify-content: center;
-        align-items: center;
-    }
-    &:hover
-    {
-        transform: scale(1.2);
-        transition: transform 500ms;
-    }
 
 
     }

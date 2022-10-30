@@ -36,18 +36,8 @@
 .grid-2
     {
         grid-area: grid-2;
+        @extend .grid-1;
         
-        img
-    {
-        width: 400px;
-    
-    }
-    &:hover
-    {
-        transform: scale(1.2);
-        transition: transform 500ms;
-    
-    }
         
     }
 
@@ -55,19 +45,8 @@
 .grid-3
     {
         grid-area: grid-3;
-        
-        img
-    {
-        width: 400px;
-    
-    }
-    &:hover
-    {
-        transform: scale(1.2);
-        transition: transform 500ms;
-    
-    }
-        
+        @extend .grid-1;
+      
     }
 
 
@@ -86,23 +65,11 @@
 .grid-5
     {
         grid-area: grid-5;
-        padding-left: 20px;
-        padding-right: 20px;
-        font-size: 20px;
-        text-decoration: solid;
-        color: aliceblue;
-        text-align: justify;
-
+        @extend .grid-4;
     }
 
 .grid-6
     {
         grid-area: grid-6;
-        padding-left: 20px;
-        padding-right: 20px;
-        font-size: 20px;
-        text-decoration: solid;
-        color: aliceblue;
-        text-align: justify;
-
+        @extend .grid-4;
     }
