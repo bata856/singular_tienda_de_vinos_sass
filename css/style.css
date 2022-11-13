@@ -6,7 +6,9 @@
 main {
   background-image: url("../img/Fondo.png");
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  filter: brightness(100%);
+  opacity: 100%; }
 
 header {
   background: linear-gradient(rgba(71, 2, 2, 0.918), #1f0115);
@@ -92,17 +94,17 @@ h2 {
 .contenedor-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: auto auto auto;
   gap: 10px;
   justify-items: center;
   margin-top: 5px;
-  padding-top: 20px;
-  grid-template-areas: "grid-1 grid-2 grid-3" "grid-4 grid-5 grid-6"; }
+  padding-top: 40px;
+  grid-template-areas: "grid-1 grid-2 grid-3" "grid-4 grid-5 grid-6" "grid-7 grid-8 grid-9"; }
 
 .grid-1, .grid-2, .grid-3 {
   grid-area: grid-1; }
   .grid-1 img, .grid-2 img, .grid-3 img {
-    width: 400px; }
+    width: 300px; }
   .grid-1:hover, .grid-2:hover, .grid-3:hover {
     transform: scale(1.2);
     transition: transform 500ms; }
@@ -118,8 +120,9 @@ h2 {
   padding-left: 20px;
   padding-right: 20px;
   font-size: 20px;
+  font-weight: bold;
   text-decoration: solid;
-  color: aliceblue;
+  color: bisque;
   text-align: justify; }
 
 .grid-5 {
@@ -127,6 +130,33 @@ h2 {
 
 .grid-6 {
   grid-area: grid-6; }
+
+.grid-7 {
+  grid-area: grid-7;
+  padding: 15px;
+  width: 70%;
+  justify-items: center; }
+
+.grid-8 {
+  grid-area: grid-8;
+  padding: 15px;
+  width: 70%;
+  justify-items: center; }
+
+.grid-9 {
+  grid-area: grid-9;
+  padding: 15px;
+  width: 70%;
+  justify-items: center; }
+
+.button-comprar {
+  text-align: center;
+  width: 100%;
+  background: #372f2f;
+  border: none;
+  padding: 20px;
+  color: white;
+  font-size: 20px; }
 
 .contenedor-flex {
   display: flex;
@@ -168,6 +198,7 @@ footer {
   gap: 10px;
   justify-items: center;
   margin-top: 5px;
+  padding-top: 40px;
   grid-template-areas: "grid-1-catalogo grid-2-catalogo grid-3-catalogo" "grid-4-catalogo grid-5-catalogo grid-6-catalogo" "grid-7-catalogo grid-8-catalogo grid-9-catalogo"; }
 
 .grid-1-catalogo, .grid-2-catalogo, .grid-3-catalogo, .grid-4-catalogo, .grid-5-catalogo, .grid-6-catalogo, .grid-7-catalogo, .grid-8-catalogo, .grid-9-catalogo {
@@ -204,16 +235,46 @@ footer {
 .grid-9-catalogo {
   grid-area: grid-9-catalogo; }
 
+main {
+  margin-top: 5px; }
+
+.contenedor-grid-nosotros {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+  column-gap: 20px;
+  row-gap: 10px;
+  padding: 20px;
+  justify-items: center;
+  color: bisque;
+  grid-template-areas: "nosotros1 nosotros2" "nosotros1 nosotros3" "nosotros1 nosotros4"; }
+
+.nostros1, .nosotros2, .nosotros3, .nosotros4 {
+  grid-area: nosotros1;
+  color: bisque;
+  text-align: justify;
+  justify-content: center;
+  align-items: center; }
+
+.nosotros2 {
+  grid-area: nosotros2; }
+
+.nosotros3 {
+  grid-area: nosotros3; }
+
+.nosotros4 {
+  grid-area: nosotros4; }
+
 @media (max-width: 1024px) {
   .contenedor-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto auto auto;
     gap: 10px;
     justify-items: center;
     margin-top: 5px;
     padding-top: 20px;
-    grid-template-areas: "grid-1 grid-2 grid-3" "grid-4 grid-5 grid-6"; }
+    grid-template-areas: "grid-1 grid-2 grid-3" "grid-4 grid-5 grid-6" "grid-7 grid-8 grid-9"; }
   .grid-1, .grid-2, .grid-3 {
     grid-area: grid-1; }
     .grid-1 img, .grid-2 img, .grid-3 img {
@@ -275,13 +336,13 @@ footer {
     text-align: center; }
   .contenedor-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 30% 30% 40%;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 10px;
     justify-items: center;
     align-items: center;
     margin-top: 5px;
-    grid-template-areas: "grid-1 grid-4" "grid-2 grid-5" "grid-3 grid-6"; }
+    grid-template-areas: "grid-1 grid-4 grid-7" "grid-2 grid-5 grid-8" "grid-3 grid-6 grid-9"; }
   .grid-1 img, .grid-2 img, .grid-3 img {
     width: 150px; }
   .grid-2 img img {
@@ -322,12 +383,12 @@ footer {
   .contenedor-grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: auto auto auto auto auto auto auto auto auto;
     gap: 10px;
     justify-items: center;
     align-items: center;
     margin-top: 5px;
-    grid-template-areas: "grid-1"  "grid-4" "grid-2" "grid-5" "grid-3"  "grid-6"; }
+    grid-template-areas: "grid-1"  "grid-4" "grid-7" "grid-2" "grid-5" "grid-8" "grid-3"  "grid-6" "grid-9"; }
   .grid-1 img, .grid-2 img, .grid-3 img {
     width: 200px; }
   .grid-2 img {

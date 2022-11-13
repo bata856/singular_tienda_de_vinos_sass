@@ -36,6 +36,9 @@
         color: bisque;
     }
 
+
+
+
     .box
     {
         width: 20%;
@@ -51,7 +54,7 @@
     {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(6, 1fr);
+        grid-template-rows: auto auto auto auto auto auto auto auto auto ;
         gap: 10px;
         justify-items: center;
         align-items: center;
@@ -59,10 +62,14 @@
         grid-template-areas: 
         "grid-1" 
         "grid-4"
+        "grid-7"
         "grid-2"
-         "grid-5"
+        "grid-5"
+        "grid-8"
         "grid-3" 
         "grid-6"
+        "grid-9"
+        
         ;
     }
 

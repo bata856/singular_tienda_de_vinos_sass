@@ -2,14 +2,15 @@
     {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: auto auto auto;
         gap: 10px;
         justify-items: center;
         margin-top: 5px;
-        padding-top: 20px;
+        padding-top: 40px;
         grid-template-areas: 
         "grid-1 grid-2 grid-3"
-        "grid-4 grid-5 grid-6";
+        "grid-4 grid-5 grid-6"
+        "grid-7 grid-8 grid-9";
   
     
 }
@@ -20,7 +21,7 @@
         
         img
     {
-        width: 400px;
+        width: 300px;
     
     }
     &:hover
@@ -56,8 +57,9 @@
         padding-left: 20px;
         padding-right: 20px;
         font-size: 20px;
+        font-weight: bold;
         text-decoration: solid;
-        color: aliceblue;
+        color: bisque;
         text-align: justify;
 
     }
@@ -72,4 +74,47 @@
     {
         grid-area: grid-6;
         @extend .grid-4;
+    }
+
+    .grid-7
+    {
+        grid-area: grid-7;
+        padding: 15px;
+        width: 70%;
+        justify-items: center;
+        
+        
+    }
+    .grid-8
+    {
+        grid-area: grid-8;
+        padding: 15px;
+        width: 70%;
+        justify-items: center;
+        
+        
+    
+    }
+    .grid-9
+    {
+        grid-area: grid-9;
+        padding: 15px;
+       
+        width: 70%;
+        justify-items: center;
+        
+        
+    
+    }
+
+    .button-comprar 
+    {
+        text-align: center;
+        width: 100%;
+        background: hsl(0, 7%, 20%);
+        border: none;
+        padding: 20px;
+        color: white;
+        font-size: 20px;
+    
     }
